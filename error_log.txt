@@ -1,0 +1,1061 @@
+====================
+Error #1  (SNOMED ID: 423095007 - congenital plagiocephaly with pelvic obliquity (disorder)
+> Modifier pair FSN 'acquired plagiocephaly with pelvic obliquity (disorder)' 
+    for 'congenital plagiocephaly with pelvic obliquity (disorder)' does not exist.
+> First result: congenital plagiocephaly with pelvic obliquity (disorder)
+> First result yielded a 83.33% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 14
+====================
+
+====================
+Error #2  (SNOMED ID: 36010004 - congenital cerebral meningocele
+> Modifier pair FSN 'acquired cerebral meningocele' 
+    for 'congenital cerebral meningocele' does not exist.
+> First result: acquired meningocele (disorder)
+> First result yielded a 66.67% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 23
+====================
+
+====================
+Error #3  (SNOMED ID: 51655004 - congenital anomaly of skull
+> Modifier pair FSN 'acquired anomaly of skull' 
+    for 'congenital anomaly of skull' does not exist.
+> First result: congenital anomaly of skull (disorder)
+> First result yielded a 75.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 24
+====================
+
+====================
+Error #4  (SNOMED ID: 109910003 - chronic mastoiditis
+> Modifier pair 'acute mastoiditis' was found 
+    for 'chronic mastoiditis'
+> Both children yielded different parents though.
+> Parent for chronic mastoiditis:
+    chronic mastoiditis
+> Parent for acute mastoiditis:
+    acute mastoiditis (disorder)
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 34
+====================
+
+====================
+Error #5  (SNOMED ID: 93887003 - primary malignant neoplasm of mastoid air cells
+> Modifier pair 'secondary malignant neoplasm of mastoid air cells' was found 
+    for 'primary malignant neoplasm of mastoid air cells'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of mastoid air cells:
+    primary malignant neoplasm of temporal bone
+> Parent for secondary malignant neoplasm of mastoid air cells:
+    secondary malignant neoplasm of temporal bone
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 44
+====================
+
+====================
+Error #6  (SNOMED ID: 94404007 - secondary malignant neoplasm of mastoid air cells
+> Modifier pair 'primary malignant neoplasm of mastoid air cells' was found 
+    for 'secondary malignant neoplasm of mastoid air cells'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of mastoid air cells:
+    secondary malignant neoplasm of temporal bone
+> Parent for primary malignant neoplasm of mastoid air cells:
+    primary malignant neoplasm of temporal bone
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 45
+====================
+
+====================
+Error #7  (SNOMED ID: 41954005 - chronic atticoantral suppurative otitis media
+> Modifier pair FSN 'acute atticoantral suppurative otitis media' 
+    for 'chronic atticoantral suppurative otitis media' does not exist.
+> First result: acute suppurative otitis media without spontaneous rupture of ear drum (disorder)
+> First result yielded a 80.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 55
+====================
+
+====================
+Error #8  (SNOMED ID: 93887003 - primary malignant neoplasm of mastoid air cells
+> Modifier pair 'secondary malignant neoplasm of mastoid air cells' was found 
+    for 'primary malignant neoplasm of mastoid air cells'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of mastoid air cells:
+    primary malignant neoplasm of temporal bone
+> Parent for secondary malignant neoplasm of mastoid air cells:
+    secondary malignant neoplasm of temporal bone
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 82
+====================
+
+====================
+Error #9  (SNOMED ID: 94404007 - secondary malignant neoplasm of mastoid air cells
+> Modifier pair 'primary malignant neoplasm of mastoid air cells' was found 
+    for 'secondary malignant neoplasm of mastoid air cells'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of mastoid air cells:
+    secondary malignant neoplasm of temporal bone
+> Parent for primary malignant neoplasm of mastoid air cells:
+    primary malignant neoplasm of temporal bone
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 83
+====================
+
+====================
+Error #10  (SNOMED ID: 253100009 - congenital endaural hernia
+> Modifier pair FSN 'acquired endaural hernia' 
+    for 'congenital endaural hernia' does not exist.
+> First result: congenital endaural hernia (disorder)
+> First result yielded a 66.67% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 95
+====================
+
+====================
+Error #11  (SNOMED ID: 253101008 - congenital cerebral hernia
+> Modifier pair FSN 'acquired cerebral hernia' 
+    for 'congenital cerebral hernia' does not exist.
+> First result: congenital cerebral hernia (disorder)
+> First result yielded a 66.67% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 96
+====================
+
+====================
+Error #12  (SNOMED ID: 86704005 - fracture of anterior fossa
+> Modifier pair 'fracture of posterior fossa' was found 
+    for 'fracture of anterior fossa'
+> Both children yielded different parents though.
+> Parent for fracture of anterior fossa:
+    fracture of base of skull
+> Parent for fracture of posterior fossa:
+    fracture of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 133
+====================
+
+====================
+Error #13  (SNOMED ID: 34813004 - fracture of posterior fossa
+> Modifier pair 'fracture of anterior fossa' was found 
+    for 'fracture of posterior fossa'
+> Both children yielded different parents though.
+> Parent for fracture of posterior fossa:
+    fracture of skull
+> Parent for fracture of anterior fossa:
+    fracture of base of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 161
+====================
+
+====================
+Error #14  (SNOMED ID: 263169005 - fracture of lateral wall of orbit
+> Modifier pair FSN 'fracture of unilateral wall of orbit' 
+    for 'fracture of lateral wall of orbit' does not exist.
+> First result: closed reduction of fracture of orbit, rim or wall (procedure)
+> First result yielded a 66.67% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 227
+====================
+
+====================
+Error #15  (SNOMED ID: 263151001 - fracture of upper jaw
+> Modifier pair FSN 'fracture of lower jaw' 
+    for 'fracture of upper jaw' does not exist.
+> First result: open fracture of upper end of lower leg (disorder)
+> First result yielded a 75.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 231
+====================
+
+====================
+Error #16  (SNOMED ID: 65648007 - open fracture of superior maxilla
+> Modifier pair FSN 'open fracture of inferior maxilla' 
+    for 'open fracture of superior maxilla' does not exist.
+> First result: open reduction of fracture of alveolar process of maxilla (procedure)
+> First result yielded a 80.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 299
+====================
+
+====================
+Error #17  (SNOMED ID: 263151001 - fracture of upper jaw, closed
+> Modifier pair FSN 'fracture of lower jaw, closed' 
+    for 'fracture of upper jaw, closed' does not exist.
+> First result: closed fracture of lower end of radius and ulna (disorder)
+> First result yielded a 80.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 368
+====================
+
+====================
+Error #18  (SNOMED ID: 95424002 - acute osteomyelitis of cranium
+> Modifier pair 'chronic osteomyelitis of cranium' was found 
+    for 'acute osteomyelitis of cranium'
+> Both children yielded different parents though.
+> Parent for acute osteomyelitis of cranium:
+    osteomyelitis of cranium
+> Parent for chronic osteomyelitis of cranium:
+    chronic osteomyelitis
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 404
+====================
+
+====================
+Error #19  (SNOMED ID: 95425001 - chronic osteomyelitis of cranium
+> Modifier pair 'acute osteomyelitis of cranium' was found 
+    for 'chronic osteomyelitis of cranium'
+> Both children yielded different parents though.
+> Parent for chronic osteomyelitis of cranium:
+    chronic osteomyelitis
+> Parent for acute osteomyelitis of cranium:
+    osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 405
+====================
+
+====================
+Error #20  (SNOMED ID: 109310009 - acute osteomyelitis of frontal bone
+> Modifier pair 'chronic osteomyelitis of frontal bone' was found 
+    for 'acute osteomyelitis of frontal bone'
+> Both children yielded different parents though.
+> Parent for acute osteomyelitis of frontal bone:
+    acute osteomyelitis of cranium
+> Parent for chronic osteomyelitis of frontal bone:
+    chronic osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 407
+====================
+
+====================
+Error #21  (SNOMED ID: 109316003 - chronic osteomyelitis of frontal bone
+> Modifier pair 'acute osteomyelitis of frontal bone' was found 
+    for 'chronic osteomyelitis of frontal bone'
+> Both children yielded different parents though.
+> Parent for chronic osteomyelitis of frontal bone:
+    chronic osteomyelitis of cranium
+> Parent for acute osteomyelitis of frontal bone:
+    acute osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 408
+====================
+
+====================
+Error #22  (SNOMED ID: 109311008 - acute osteomyelitis of zygomatic bone
+> Modifier pair 'chronic osteomyelitis of zygomatic bone' was found 
+    for 'acute osteomyelitis of zygomatic bone'
+> Both children yielded different parents though.
+> Parent for acute osteomyelitis of zygomatic bone:
+    acute osteomyelitis of cranium
+> Parent for chronic osteomyelitis of zygomatic bone:
+    chronic osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 410
+====================
+
+====================
+Error #23  (SNOMED ID: 109317007 - chronic osteomyelitis of zygomatic bone
+> Modifier pair 'acute osteomyelitis of zygomatic bone' was found 
+    for 'chronic osteomyelitis of zygomatic bone'
+> Both children yielded different parents though.
+> Parent for chronic osteomyelitis of zygomatic bone:
+    chronic osteomyelitis of cranium
+> Parent for acute osteomyelitis of zygomatic bone:
+    acute osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 411
+====================
+
+====================
+Error #24  (SNOMED ID: 109312001 - acute osteomyelitis of sphenoid bone
+> Modifier pair 'chronic osteomyelitis of sphenoid bone' was found 
+    for 'acute osteomyelitis of sphenoid bone'
+> Both children yielded different parents though.
+> Parent for acute osteomyelitis of sphenoid bone:
+    acute osteomyelitis of cranium
+> Parent for chronic osteomyelitis of sphenoid bone:
+    chronic osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 414
+====================
+
+====================
+Error #25  (SNOMED ID: 109318002 - chronic osteomyelitis of sphenoid bone
+> Modifier pair 'acute osteomyelitis of sphenoid bone' was found 
+    for 'chronic osteomyelitis of sphenoid bone'
+> Both children yielded different parents though.
+> Parent for chronic osteomyelitis of sphenoid bone:
+    chronic osteomyelitis of cranium
+> Parent for acute osteomyelitis of sphenoid bone:
+    acute osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 415
+====================
+
+====================
+Error #26  (SNOMED ID: 109313006 - acute osteomyelitis of temporal bone
+> Modifier pair 'chronic osteomyelitis of temporal bone' was found 
+    for 'acute osteomyelitis of temporal bone'
+> Both children yielded different parents though.
+> Parent for acute osteomyelitis of temporal bone:
+    acute osteomyelitis of cranium
+> Parent for chronic osteomyelitis of temporal bone:
+    chronic osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 418
+====================
+
+====================
+Error #27  (SNOMED ID: 109319005 - chronic osteomyelitis of temporal bone
+> Modifier pair 'acute osteomyelitis of temporal bone' was found 
+    for 'chronic osteomyelitis of temporal bone'
+> Both children yielded different parents though.
+> Parent for chronic osteomyelitis of temporal bone:
+    chronic osteomyelitis of cranium
+> Parent for acute osteomyelitis of temporal bone:
+    acute osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 419
+====================
+
+====================
+Error #28  (SNOMED ID: 109314000 - acute osteomyelitis of nasal-orbit complex
+> Modifier pair 'chronic osteomyelitis of nasal-orbit complex' was found 
+    for 'acute osteomyelitis of nasal-orbit complex'
+> Both children yielded different parents though.
+> Parent for acute osteomyelitis of nasal-orbit complex:
+    acute osteomyelitis of cranium
+> Parent for chronic osteomyelitis of nasal-orbit complex:
+    chronic osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 422
+====================
+
+====================
+Error #29  (SNOMED ID: 109320004 - chronic osteomyelitis of nasal-orbit complex
+> Modifier pair 'acute osteomyelitis of nasal-orbit complex' was found 
+    for 'chronic osteomyelitis of nasal-orbit complex'
+> Both children yielded different parents though.
+> Parent for chronic osteomyelitis of nasal-orbit complex:
+    chronic osteomyelitis of cranium
+> Parent for acute osteomyelitis of nasal-orbit complex:
+    acute osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 423
+====================
+
+====================
+Error #30  (SNOMED ID: 109693003 - acute osteomyelitis of maxilla
+> Modifier pair 'chronic osteomyelitis of maxilla' was found 
+    for 'acute osteomyelitis of maxilla'
+> Both children yielded different parents though.
+> Parent for acute osteomyelitis of maxilla:
+    acute osteomyelitis of jaw
+> Parent for chronic osteomyelitis of maxilla:
+    chronic osteomyelitis of jaw
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 425
+====================
+
+====================
+Error #31  (SNOMED ID: 109694009 - chronic osteomyelitis of maxilla
+> Modifier pair 'acute osteomyelitis of maxilla' was found 
+    for 'chronic osteomyelitis of maxilla'
+> Both children yielded different parents though.
+> Parent for chronic osteomyelitis of maxilla:
+    chronic osteomyelitis of jaw
+> Parent for acute osteomyelitis of maxilla:
+    acute osteomyelitis of jaw
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 426
+====================
+
+====================
+Error #32  (SNOMED ID: 710194000 - benign odontogenic tumour of upper jaw
+> Modifier pair FSN 'benign odontogenic tumour of lower jaw' 
+    for 'benign odontogenic tumour of upper jaw' does not exist.
+> First result: benign odontogenic neoplasm of lower jaw (disorder)
+> First result yielded a 83.33% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 443
+====================
+
+====================
+Error #33  (SNOMED ID: 94220000 - secondary malignant neoplasm of bone of skull
+> Modifier pair FSN 'primary malignant neoplasm of bone of skull' 
+    for 'secondary malignant neoplasm of bone of skull' does not exist or might be mispelled.
+> First result: primary malignant neoplasm of bone of skull (disorder)
+  First result yielded a 85.71% match.
+> ERROR ID: 3 (MOD_PAIR_NO_EXIST_OR_MISTYPED)
+Position in audit: 453
+====================
+
+====================
+Error #34  (SNOMED ID: 93806005 - primary malignant neoplasm of frontal bone
+> Modifier pair 'secondary malignant neoplasm of frontal bone' was found 
+    for 'primary malignant neoplasm of frontal bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of frontal bone:
+    primary malignant neoplasm of bone of skull
+> Parent for secondary malignant neoplasm of frontal bone:
+    secondary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 469
+====================
+
+====================
+Error #35  (SNOMED ID: 94308006 - secondary malignant neoplasm of frontal bone
+> Modifier pair 'primary malignant neoplasm of frontal bone' was found 
+    for 'secondary malignant neoplasm of frontal bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of frontal bone:
+    secondary malignant neoplasm of bone of skull
+> Parent for primary malignant neoplasm of frontal bone:
+    primary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 470
+====================
+
+====================
+Error #36  (SNOMED ID: 93945001 - primary malignant neoplasm of parietal bone
+> Modifier pair 'secondary malignant neoplasm of parietal bone' was found 
+    for 'primary malignant neoplasm of parietal bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of parietal bone:
+    primary malignant neoplasm of bone of skull
+> Parent for secondary malignant neoplasm of parietal bone:
+    secondary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 474
+====================
+
+====================
+Error #37  (SNOMED ID: 94470004 - secondary malignant neoplasm of parietal bone
+> Modifier pair 'primary malignant neoplasm of parietal bone' was found 
+    for 'secondary malignant neoplasm of parietal bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of parietal bone:
+    secondary malignant neoplasm of bone of skull
+> Parent for primary malignant neoplasm of parietal bone:
+    primary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 475
+====================
+
+====================
+Error #38  (SNOMED ID: 94085001 - primary malignant neoplasm of temporal bone
+> Modifier pair 'secondary malignant neoplasm of temporal bone' was found 
+    for 'primary malignant neoplasm of temporal bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of temporal bone:
+    primary malignant neoplasm of bone of skull
+> Parent for secondary malignant neoplasm of temporal bone:
+    secondary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 480
+====================
+
+====================
+Error #39  (SNOMED ID: 94621009 - secondary malignant neoplasm of temporal bone
+> Modifier pair 'primary malignant neoplasm of temporal bone' was found 
+    for 'secondary malignant neoplasm of temporal bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of temporal bone:
+    secondary malignant neoplasm of bone of skull
+> Parent for primary malignant neoplasm of temporal bone:
+    primary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 481
+====================
+
+====================
+Error #40  (SNOMED ID: 93887003 - primary malignant neoplasm of mastoid air cells
+> Modifier pair 'secondary malignant neoplasm of mastoid air cells' was found 
+    for 'primary malignant neoplasm of mastoid air cells'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of mastoid air cells:
+    primary malignant neoplasm of temporal bone
+> Parent for secondary malignant neoplasm of mastoid air cells:
+    secondary malignant neoplasm of temporal bone
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 490
+====================
+
+====================
+Error #41  (SNOMED ID: 94404007 - secondary malignant neoplasm of mastoid air cells
+> Modifier pair 'primary malignant neoplasm of mastoid air cells' was found 
+    for 'secondary malignant neoplasm of mastoid air cells'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of mastoid air cells:
+    secondary malignant neoplasm of temporal bone
+> Parent for primary malignant neoplasm of mastoid air cells:
+    primary malignant neoplasm of temporal bone
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 491
+====================
+
+====================
+Error #42  (SNOMED ID: 93887003 - primary malignant neoplasm of mastoid air cells
+> Modifier pair 'secondary malignant neoplasm of mastoid air cells' was found 
+    for 'primary malignant neoplasm of mastoid air cells'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of mastoid air cells:
+    primary malignant neoplasm of temporal bone
+> Parent for secondary malignant neoplasm of mastoid air cells:
+    secondary malignant neoplasm of temporal bone
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 510
+====================
+
+====================
+Error #43  (SNOMED ID: 94404007 - secondary malignant neoplasm of mastoid air cells
+> Modifier pair 'primary malignant neoplasm of mastoid air cells' was found 
+    for 'secondary malignant neoplasm of mastoid air cells'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of mastoid air cells:
+    secondary malignant neoplasm of temporal bone
+> Parent for primary malignant neoplasm of mastoid air cells:
+    primary malignant neoplasm of temporal bone
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 511
+====================
+
+====================
+Error #44  (SNOMED ID: 93927001 - primary malignant neoplasm of occipital bone
+> Modifier pair 'secondary malignant neoplasm of occipital bone' was found 
+    for 'primary malignant neoplasm of occipital bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of occipital bone:
+    primary malignant neoplasm of bone of skull
+> Parent for secondary malignant neoplasm of occipital bone:
+    secondary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 515
+====================
+
+====================
+Error #45  (SNOMED ID: 94447007 - secondary malignant neoplasm of occipital bone
+> Modifier pair 'primary malignant neoplasm of occipital bone' was found 
+    for 'secondary malignant neoplasm of occipital bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of occipital bone:
+    secondary malignant neoplasm of bone of skull
+> Parent for primary malignant neoplasm of occipital bone:
+    primary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 516
+====================
+
+====================
+Error #46  (SNOMED ID: 94066004 - primary malignant neoplasm of sphenoid bone
+> Modifier pair 'secondary malignant neoplasm of sphenoid bone' was found 
+    for 'primary malignant neoplasm of sphenoid bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of sphenoid bone:
+    primary malignant neoplasm of bone of skull
+> Parent for secondary malignant neoplasm of sphenoid bone:
+    secondary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 521
+====================
+
+====================
+Error #47  (SNOMED ID: 94598003 - secondary malignant neoplasm of sphenoid bone
+> Modifier pair 'primary malignant neoplasm of sphenoid bone' was found 
+    for 'secondary malignant neoplasm of sphenoid bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of sphenoid bone:
+    secondary malignant neoplasm of bone of skull
+> Parent for primary malignant neoplasm of sphenoid bone:
+    primary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 522
+====================
+
+====================
+Error #48  (SNOMED ID: 93786001 - primary malignant neoplasm of ethmoid bone
+> Modifier pair 'secondary malignant neoplasm of ethmoid bone' was found 
+    for 'primary malignant neoplasm of ethmoid bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of ethmoid bone:
+    primary malignant neoplasm of bone of skull
+> Parent for secondary malignant neoplasm of ethmoid bone:
+    secondary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 526
+====================
+
+====================
+Error #49  (SNOMED ID: 94145009 - primary malignant neoplasm of zygomatic bone
+> Modifier pair 'secondary malignant neoplasm of zygomatic bone' was found 
+    for 'primary malignant neoplasm of zygomatic bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of zygomatic bone:
+    primary malignant neoplasm of bone of face
+> Parent for secondary malignant neoplasm of zygomatic bone:
+    secondary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 532
+====================
+
+====================
+Error #50  (SNOMED ID: 94683009 - secondary malignant neoplasm of zygomatic bone
+> Modifier pair 'primary malignant neoplasm of zygomatic bone' was found 
+    for 'secondary malignant neoplasm of zygomatic bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of zygomatic bone:
+    secondary malignant neoplasm of bone of face
+> Parent for primary malignant neoplasm of zygomatic bone:
+    primary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 533
+====================
+
+====================
+Error #51  (SNOMED ID: 93936002 - primary malignant neoplasm of palatine bone
+> Modifier pair 'secondary malignant neoplasm of palatine bone' was found 
+    for 'primary malignant neoplasm of palatine bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of palatine bone:
+    primary malignant neoplasm of bone of face
+> Parent for secondary malignant neoplasm of palatine bone:
+    secondary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 536
+====================
+
+====================
+Error #52  (SNOMED ID: 94457008 - secondary malignant neoplasm of palatine bone
+> Modifier pair 'primary malignant neoplasm of palatine bone' was found 
+    for 'secondary malignant neoplasm of palatine bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of palatine bone:
+    secondary malignant neoplasm of bone of face
+> Parent for primary malignant neoplasm of palatine bone:
+    primary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 537
+====================
+
+====================
+Error #53  (SNOMED ID: 93916003 - primary malignant neoplasm of nasal bone
+> Modifier pair 'secondary malignant neoplasm of nasal bone' was found 
+    for 'primary malignant neoplasm of nasal bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of nasal bone:
+    primary malignant neoplasm of bone of face
+> Parent for secondary malignant neoplasm of nasal bone:
+    secondary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 541
+====================
+
+====================
+Error #54  (SNOMED ID: 94435001 - secondary malignant neoplasm of nasal bone
+> Modifier pair 'primary malignant neoplasm of nasal bone' was found 
+    for 'secondary malignant neoplasm of nasal bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of nasal bone:
+    secondary malignant neoplasm of bone of face
+> Parent for primary malignant neoplasm of nasal bone:
+    primary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 542
+====================
+
+====================
+Error #55  (SNOMED ID: 710194000 - benign odontogenic tumour of upper jaw
+> Modifier pair FSN 'benign odontogenic tumour of lower jaw' 
+    for 'benign odontogenic tumour of upper jaw' does not exist.
+> First result: benign odontogenic neoplasm of lower jaw (disorder)
+> First result yielded a 83.33% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 547
+====================
+
+====================
+Error #56  (SNOMED ID: 93888008 - primary malignant neoplasm of maxilla
+> Modifier pair 'secondary malignant neoplasm of maxilla' was found 
+    for 'primary malignant neoplasm of maxilla'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of maxilla:
+    primary malignant neoplasm of bone of face
+> Parent for secondary malignant neoplasm of maxilla:
+    secondary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 548
+====================
+
+====================
+Error #57  (SNOMED ID: 94405008 - secondary malignant neoplasm of maxilla
+> Modifier pair 'primary malignant neoplasm of maxilla' was found 
+    for 'secondary malignant neoplasm of maxilla'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of maxilla:
+    secondary malignant neoplasm of bone of face
+> Parent for primary malignant neoplasm of maxilla:
+    primary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 549
+====================
+
+====================
+Error #58  (SNOMED ID: 109688001 - chronic abscess of maxilla
+> Modifier pair FSN 'acute abscess of maxilla' 
+    for 'chronic abscess of maxilla' does not exist.
+> First result: acute abscess of breast (disorder)
+> First result yielded a 75.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 560
+====================
+
+====================
+Error #59  (SNOMED ID: 93014003 - congenital anomaly of palatine bone
+> Modifier pair FSN 'acquired anomaly of palatine bone' 
+    for 'congenital anomaly of palatine bone' does not exist.
+> First result: congenital anomaly of palatine bone (disorder)
+> First result yielded a 80.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 585
+====================
+
+====================
+Error #60  (SNOMED ID: 93936002 - primary malignant neoplasm of palatine bone
+> Modifier pair 'secondary malignant neoplasm of palatine bone' was found 
+    for 'primary malignant neoplasm of palatine bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of palatine bone:
+    primary malignant neoplasm of bone of face
+> Parent for secondary malignant neoplasm of palatine bone:
+    secondary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 589
+====================
+
+====================
+Error #61  (SNOMED ID: 94457008 - secondary malignant neoplasm of palatine bone
+> Modifier pair 'primary malignant neoplasm of palatine bone' was found 
+    for 'secondary malignant neoplasm of palatine bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of palatine bone:
+    secondary malignant neoplasm of bone of face
+> Parent for primary malignant neoplasm of palatine bone:
+    primary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 590
+====================
+
+====================
+Error #62  (SNOMED ID: 93029001 - congenital anomaly of zygomatic bone
+> Modifier pair FSN 'acquired anomaly of zygomatic bone' 
+    for 'congenital anomaly of zygomatic bone' does not exist.
+> First result: congenital anomaly of zygomatic bone (disorder)
+> First result yielded a 80.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 596
+====================
+
+====================
+Error #63  (SNOMED ID: 109311008 - acute osteomyelitis of zygomatic bone
+> Modifier pair 'chronic osteomyelitis of zygomatic bone' was found 
+    for 'acute osteomyelitis of zygomatic bone'
+> Both children yielded different parents though.
+> Parent for acute osteomyelitis of zygomatic bone:
+    acute osteomyelitis of cranium
+> Parent for chronic osteomyelitis of zygomatic bone:
+    chronic osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 598
+====================
+
+====================
+Error #64  (SNOMED ID: 109317007 - chronic osteomyelitis of zygomatic bone
+> Modifier pair 'acute osteomyelitis of zygomatic bone' was found 
+    for 'chronic osteomyelitis of zygomatic bone'
+> Both children yielded different parents though.
+> Parent for chronic osteomyelitis of zygomatic bone:
+    chronic osteomyelitis of cranium
+> Parent for acute osteomyelitis of zygomatic bone:
+    acute osteomyelitis of cranium
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 599
+====================
+
+====================
+Error #65  (SNOMED ID: 94145009 - primary malignant neoplasm of zygomatic bone
+> Modifier pair 'secondary malignant neoplasm of zygomatic bone' was found 
+    for 'primary malignant neoplasm of zygomatic bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of zygomatic bone:
+    primary malignant neoplasm of bone of face
+> Parent for secondary malignant neoplasm of zygomatic bone:
+    secondary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 609
+====================
+
+====================
+Error #66  (SNOMED ID: 94683009 - secondary malignant neoplasm of zygomatic bone
+> Modifier pair 'primary malignant neoplasm of zygomatic bone' was found 
+    for 'secondary malignant neoplasm of zygomatic bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of zygomatic bone:
+    secondary malignant neoplasm of bone of face
+> Parent for primary malignant neoplasm of zygomatic bone:
+    primary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 610
+====================
+
+====================
+Error #67  (SNOMED ID: 93011006 - congenital anomaly of nasal bone
+> Modifier pair FSN 'acquired anomaly of nasal bone' 
+    for 'congenital anomaly of nasal bone' does not exist.
+> First result: congenital anomaly of nasal bone (disorder)
+> First result yielded a 80.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 622
+====================
+
+====================
+Error #68  (SNOMED ID: 93916003 - primary malignant neoplasm of nasal bone
+> Modifier pair 'secondary malignant neoplasm of nasal bone' was found 
+    for 'primary malignant neoplasm of nasal bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of nasal bone:
+    primary malignant neoplasm of bone of face
+> Parent for secondary malignant neoplasm of nasal bone:
+    secondary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 626
+====================
+
+====================
+Error #69  (SNOMED ID: 94435001 - secondary malignant neoplasm of nasal bone
+> Modifier pair 'primary malignant neoplasm of nasal bone' was found 
+    for 'secondary malignant neoplasm of nasal bone'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of nasal bone:
+    secondary malignant neoplasm of bone of face
+> Parent for primary malignant neoplasm of nasal bone:
+    primary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 627
+====================
+
+====================
+Error #70  (SNOMED ID: 93786001 - primary malignant neoplasm of ethmoid bone
+> Modifier pair 'secondary malignant neoplasm of ethmoid bone' was found 
+    for 'primary malignant neoplasm of ethmoid bone'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of ethmoid bone:
+    primary malignant neoplasm of bone of skull
+> Parent for secondary malignant neoplasm of ethmoid bone:
+    secondary malignant neoplasm of bone of skull
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 641
+====================
+
+====================
+Error #71  (SNOMED ID: 109688001 - chronic abscess of maxilla
+> Modifier pair FSN 'acute abscess of maxilla' 
+    for 'chronic abscess of maxilla' does not exist.
+> First result: acute abscess of breast (disorder)
+> First result yielded a 75.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 654
+====================
+
+====================
+Error #72  (SNOMED ID: 109693003 - acute osteomyelitis of maxilla
+> Modifier pair 'chronic osteomyelitis of maxilla' was found 
+    for 'acute osteomyelitis of maxilla'
+> Both children yielded different parents though.
+> Parent for acute osteomyelitis of maxilla:
+    acute osteomyelitis of jaw
+> Parent for chronic osteomyelitis of maxilla:
+    chronic osteomyelitis of jaw
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 656
+====================
+
+====================
+Error #73  (SNOMED ID: 109694009 - chronic osteomyelitis of maxilla
+> Modifier pair 'acute osteomyelitis of maxilla' was found 
+    for 'chronic osteomyelitis of maxilla'
+> Both children yielded different parents though.
+> Parent for chronic osteomyelitis of maxilla:
+    chronic osteomyelitis of jaw
+> Parent for acute osteomyelitis of maxilla:
+    acute osteomyelitis of jaw
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 657
+====================
+
+====================
+Error #74  (SNOMED ID: 710194000 - benign odontogenic tumour of upper jaw
+> Modifier pair FSN 'benign odontogenic tumour of lower jaw' 
+    for 'benign odontogenic tumour of upper jaw' does not exist.
+> First result: benign odontogenic neoplasm of lower jaw (disorder)
+> First result yielded a 83.33% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 665
+====================
+
+====================
+Error #75  (SNOMED ID: 93888008 - primary malignant neoplasm of maxilla
+> Modifier pair 'secondary malignant neoplasm of maxilla' was found 
+    for 'primary malignant neoplasm of maxilla'
+> Both children yielded different parents though.
+> Parent for primary malignant neoplasm of maxilla:
+    primary malignant neoplasm of bone of face
+> Parent for secondary malignant neoplasm of maxilla:
+    secondary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 666
+====================
+
+====================
+Error #76  (SNOMED ID: 94405008 - secondary malignant neoplasm of maxilla
+> Modifier pair 'primary malignant neoplasm of maxilla' was found 
+    for 'secondary malignant neoplasm of maxilla'
+> Both children yielded different parents though.
+> Parent for secondary malignant neoplasm of maxilla:
+    secondary malignant neoplasm of bone of face
+> Parent for primary malignant neoplasm of maxilla:
+    primary malignant neoplasm of bone of face
+> ERROR ID: 2 (PARENT_MISMATCH)
+Position in audit: 667
+====================
+
+====================
+Error #77  (SNOMED ID: 128223002 - congenital anomaly of maxilla
+> Modifier pair FSN 'acquired anomaly of maxilla' 
+    for 'congenital anomaly of maxilla' does not exist.
+> First result: acquired anomaly of oral mucosa (disorder)
+> First result yielded a 75.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 671
+====================
+
+====================
+Error #78  (SNOMED ID: 109514001 - congenital maxillary asymmetry
+> Modifier pair FSN 'acquired maxillary asymmetry' 
+    for 'congenital maxillary asymmetry' does not exist.
+> First result: maxillary asymmetry due to hemifacial atrophy (disorder)
+> First result yielded a 66.67% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 675
+====================
+
+====================
+Error #79  (SNOMED ID: 263151001 - fracture of upper jaw
+> Modifier pair FSN 'fracture of lower jaw' 
+    for 'fracture of upper jaw' does not exist.
+> First result: open fracture of upper end of lower leg (disorder)
+> First result yielded a 75.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 678
+====================
+
+====================
+Error #80  (SNOMED ID: 253989009 - cleft lip and alveolus (disorder)
+> Modifier pair FSN 'cright lip and alveolus (disorder)' 
+    for 'cleft lip and alveolus (disorder)' does not exist.
+> First result: bilateral incomplete cleft lip and alveolus (disorder)
+> First result yielded a 80.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 679
+====================
+
+====================
+Error #81  (SNOMED ID: 413906003 - congenital failure of fusion between maxillary and mandibular processes (disorder)
+> Modifier pair FSN 'acquired failure of fusion between maxillary and mandibular processes (disorder)' 
+    for 'congenital failure of fusion between maxillary and mandibular processes (disorder)' does not exist or might be mispelled.
+> First result: congenital failure of fusion between maxillary and mandibular processes (disorder)
+  First result yielded a 90.0% match.
+> ERROR ID: 3 (MOD_PAIR_NO_EXIST_OR_MISTYPED)
+Position in audit: 680
+====================
+
+====================
+Error #82  (SNOMED ID: 196453008 - median anterior maxillary cyst
+> Modifier pair FSN 'median posterior maxillary cyst' 
+    for 'median anterior maxillary cyst' does not exist.
+> First result: median anterior maxillary cyst (disorder)
+> First result yielded a 75.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 684
+====================
+
+====================
+Error #83  (SNOMED ID: 27299009 - congenital maxillary hypoplasia
+> Modifier pair FSN 'acquired maxillary hypoplasia' 
+    for 'congenital maxillary hypoplasia' does not exist.
+> First result: congenital transverse maxillary hypoplasia (disorder)
+> First result yielded a 66.67% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 686
+====================
+
+====================
+Error #84  (SNOMED ID: 28070007 - congenital maxillary hyperplasia
+> Modifier pair FSN 'acquired maxillary hyperplasia' 
+    for 'congenital maxillary hyperplasia' does not exist.
+> First result: hyperplasia of maxillary bone (disorder)
+> First result yielded a 66.67% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 689
+====================
+
+====================
+Error #85  (SNOMED ID: 37767008 - congenital deformity of wall of nasal sinus
+> Modifier pair FSN 'acquired deformity of wall of nasal sinus' 
+    for 'congenital deformity of wall of nasal sinus' does not exist.
+> First result: congenital deformity of wall of nasal sinus (disorder)
+> First result yielded a 71.43% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 697
+====================
+
+====================
+Error #86  (SNOMED ID: 204524005 - congenital perforation of the nasal sinus wall
+> Modifier pair FSN 'acquired perforation of the nasal sinus wall' 
+    for 'congenital perforation of the nasal sinus wall' does not exist or might be mispelled.
+> First result: congenital perforation of the nasal sinus wall (disorder)
+  First result yielded a 85.71% match.
+> ERROR ID: 3 (MOD_PAIR_NO_EXIST_OR_MISTYPED)
+Position in audit: 698
+====================
+
+====================
+Error #87  (SNOMED ID: 205040008 - jaw congenital deformities
+> Modifier pair FSN 'jaw acquired deformities' 
+    for 'jaw congenital deformities' does not exist.
+> First result: skull, face or jaw congenital deformities nos (disorder)
+> First result yielded a 66.67% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 703
+====================
+
+====================
+Error #88  (SNOMED ID: 270519009 - localised congenital skull defect
+> Modifier pair FSN 'localised acquired skull defect' 
+    for 'localised congenital skull defect' does not exist.
+> First result: acquired mucociliary clearance defect (disorder)
+> First result yielded a 50.0% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 704
+====================
+
+====================
+Error #89  (SNOMED ID: 263169005 - fracture of lateral wall of orbit
+> Modifier pair FSN 'fracture of unilateral wall of orbit' 
+    for 'fracture of lateral wall of orbit' does not exist.
+> First result: closed reduction of fracture of orbit, rim or wall (procedure)
+> First result yielded a 66.67% match.
+> ERROR ID: 1 (MOD_PAIR_NOT_EXIST)
+Position in audit: 721
+====================
+

@@ -1,0 +1,9 @@
+Compilation Results: AUDIT 1 - Monday, October 26 1:11AM
+Concepts scanned: 732
+Concept Consistencies: 643
+Concept Inconsistencies: 89
+Amount of Modifiers found: 92
+Audit Result: 87.8415300546448% consistent
+Audit Result: 12.158469945355192% inconsistent
+Starting Concept ID: 118945008
+Starting Concept FSN: disorder of skull (disorder)
