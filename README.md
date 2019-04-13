@@ -8,3 +8,5 @@ This code analyzes datasets from SNOMED-CT, the most comprehensive and multiling
     National Science Foundation
     LSAMP - CUNY
     Borough of Manhattan Community College
+
+#### Written in 2015
